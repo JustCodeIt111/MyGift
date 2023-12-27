@@ -1,0 +1,133 @@
+body,html{margin:0;
+    padding:0;
+    height:100%;
+    overflow: auto;
+}
+body{background:#E3DFD2;
+    box-shadow: inset 0 0 20vmin 0 #585247;
+}
+
+header {
+  background: #585247;
+  color: #ACA696;
+  text-align: center;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+footer {
+  background: #585247;
+  color: #ACA696;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  transition: background-color 0.3s ease;
+}
+
+.sub-text {
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+
+header:hover,
+footer:hover {
+  background-color: rgba(88, 82, 71, 0.7);
+}
+.btn-primary {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.wrap {
+  position: relative;
+  top: 20px;
+}
+
+/* Add this style to center the logo in the navbar */
+.navbar {
+  justify-content: center;
+  background-color: #585247 !important;
+
+}
+.navbar-custom{
+  background-color: #585247 !important;
+  justify-content: center;
+}
+
+/* Add this style to adjust spacing between navbar items */
+.navbar-nav .nav-item {
+  margin-right: 128px;
+}
+
+/* Add this style to remove default Bootstrap underline on navbar links */
+.navbar-dark .navbar-nav .nav-link {
+  color: #ACA696;
+  text-decoration: none;
+}
+
+/* Add this style to apply hover color on navbar links */
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ACA696;
+}
+.transparent-bg {
+  background-color: transparent;
+
+}
+.sign-in-btn {
+  background: #585247;
+  color: #ACA696;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#carouselExampleControls {
+  height: 400px; /* Set your desired height */
+}
+.pagination-nav {
+  padding: 10px;
+  position: fixed;
+  bottom: 40px; /* Adjust the distance from the bottom as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.pagination .page-item .page-link {
+  color: #ACA696; /* Match the text color with your design */
+  font-size: 13px; /* Adjust font size as needed */
+  padding: 11px 30px;
+}
+
+.pagination .page-item .page-link:hover {
+  background-color: #ACA696;
+  color: #585247;
+}
+  .page-link{
+    color: #ACA696;
+  text-decoration: none;
+  }
+  .text-container {
+    text-align: right;
+  position: relative;
+  top: -450px;
+  right: -650px;
+  width: 60%; /* Adjust the width as needed */
+  padding: 20px;
+  background-color: #E3DFD2; /* Match the background color of your page */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.text-container p {
+  margin: 0;
+  color: #585247; /* Match the text color with your design */
+}
